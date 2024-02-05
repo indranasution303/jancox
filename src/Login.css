@@ -1,0 +1,130 @@
+.login-container {
+    width: 100%;
+    max-width: 400px; /* Sesuaikan dengan lebar form di gambar */
+    margin: auto;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .login-button {
+    background-color: #1877F2; /* Warna biru Facebook */
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 15px;
+  }
+  
+  .login-button:hover {
+    background-color: #165EAB; /* Warna biru yang sedikit lebih gelap */
+  }
+  
+  .login-links {
+    text-align: center;
+  }
+  
+  .login-link {
+    color: #1877F2;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .login-link:hover {
+    text-decoration: underline;
+  }
+  
+  .login-divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 0px 0;
+  }
+  
+  .login-divider:before,
+  .login-divider:after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .login-divider:before {
+    margin-right: .0em;
+  }
+  
+  .login-divider:after {
+    margin-left: .0em;
+  }
+  
+  .login-error {
+    color: red; /* Warna merah untuk pesan kesalahan */
+    font-size: 0.8rem; /* Sesuaikan ukuran font sesuai dengan desain */
+    margin-top: 0.5rem; /* Jarak atas dari input password */
+    margin-bottom: 1rem; /* Jarak bawah sebelum tombol Log In */
+  }
+
+  .login-header {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    margin-bottom: 10px; /* Spacing between header and form */
+  }
+  
+  .login-logo {
+    /* Adjust the size of the logo as needed */
+
+    height: 50px; /* Example height that you can adjust */
+    margin-bottom: 0%; /* Spacing between logo and description text */
+  }
+  
+  .login-description {
+    color: #333; /* Color for the description text */
+    font-size: 1rem; /* Adjust the font size as needed */
+    text-align: left; /* Center the text */
+    max-width: 100%; /* Maximum width of the description text */
+    margin-bottom: 0%;
+  }
+
+  .login-description2 {
+    color: #ee1212; /* Color for the description text */
+    font-size: 0.7rem; /* Adjust the font size as needed */
+    text-align: left; /* Center the text */
+    max-width: 100%; /* Maximum width of the description text */
+  }
+
+  .last-warning {
+    color: #332f2f; /* Color for the description text */
+    font-size: 0.7rem; /* Adjust the font size as needed */
+    text-align: left; /* Center the text */
+    max-width: 100%; /* Maximum width of the description text */
+  }
+
+  .footer {
+    color: #332f2f; /* Color for the description text */
+    font-size: 0.8rem; /* Adjust the font size as needed */
+    text-align: center; /* Center the text */
+    max-width: 100%; /* Maximum width of the description text */
+    
+  }
+
+  .error-wrong{
+    color: #fc1010; /* Color for the description text */
+    font-size: 0.8rem; /* Adjust the font size as needed */
+    text-align: left; /* Center the text */
+    max-width: 100%; /* Maximum width of the description text */
+    margin-top: -2%;
+  
+  }
