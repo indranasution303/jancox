@@ -61,7 +61,7 @@ function Validation() {
       // Jika form valid, lakukan request ke server
       console.log('Submitting form:', cardDetails);
       try {
-        const response = await fetch('http://localhost:5000/validate', {
+        const response = await fetch(`${process.env.REACT_APP_API_URL}/validate`, {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
